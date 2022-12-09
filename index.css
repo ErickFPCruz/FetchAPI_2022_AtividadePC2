@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(39, 27, 218, 0.699);
+    color: rgb(240, 224, 80);
+    font-size: 1.75em;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+h1{
+    color: rgb(240, 224, 80);
+}
+
+.flexHr {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+label, button {
+    display: block;
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    background-color: rgba(133, 124, 124, 0.815);
+    border: solid 1px rgb(238, 215, 10);
+    color: rgba(17, 255, 29, 0.692);
+}
